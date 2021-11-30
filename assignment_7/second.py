@@ -9,6 +9,12 @@
 #ouput: Valid
 
 import re
+def intro():
+    print ("Please input yout username and password that is with")
+    print ("with a Character more than 15 ")
+    print ("at least one capital letter")
+    print ("at least one number")
+    print ("at least one special char (!@#$%^&*()_+ etc)")
 
 def user ():
     input ("username: ")
@@ -35,5 +41,10 @@ def user ():
         print("Not a Valid Password")
         return user()
 
+def goodbye ():
+    print ("your username and password is valid you may now continue")
 
+
+intro ()
 user ()
+goodbye ()
